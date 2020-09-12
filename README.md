@@ -55,23 +55,23 @@ The context is a set of files, passed in as an argument to the `docker build` co
 ## Object Oriented Programming
 - 📝 [Why getter and setter methods are evil](https://www.infoworld.com/article/2073723/why-getter-and-setter-methods-are-evil.html)
 
-## Javascript
+## Languages
+### Javascript
 - 🎥 [What the heck is the event loop anyway? | Philip Roberts | JSConf EU](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
 ### Legacy 
 These articles aren't too relevant for today's JS, but were helpful at the time and still useful for historical learning.
 - 📝 [Overwhelmed by Javascript Dependencies](http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html)
 
-## Typescript
-- 📖 [**Effective Typescript**](https://effectivetypescript.com/) - Dan Vanderkam
+### [Typescript](typescript.md)
 
-## C++
+### C++
 - 📝 [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines)
 
-## Rust
+### Rust
 - 📝 [Rust via its Core Values](http://designisrefactoring.com/2016/04/01/rust-via-its-core-values/)
 
-## Go
+### Go
 ### Modules
 - 🎥 [Intro to Go Modules and SemVer](https://www.youtube.com/watch?v=aeF3l-zmPsY)
 ### HTTP Server
