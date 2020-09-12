@@ -14,9 +14,7 @@
 ## Web Front-End
 - 📝 [THE PAST, PRESENT & FUTURE OF LOCAL STORAGE FOR WEB APPLICATIONS](http://diveintohtml5.info/storage.html)
 
-## Linux
-- 📝 [Linux System Administration Basics](https://www.linode.com/docs/tools-reference/basics/linux-system-administration-basics/)
-- 📝 [How To Configure a Linux Service](https://www.digitalocean.com/community/tutorials/how-to-configure-a-linux-service-to-start-automatically-after-a-crash-or-reboot-part-1-practical-examples)
+## [Linux](linux.md)
 
 ## Docker
 ### Dockerfile
