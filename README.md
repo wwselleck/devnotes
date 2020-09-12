@@ -14,7 +14,9 @@
 ## Web Front-End
 - 📝 [THE PAST, PRESENT & FUTURE OF LOCAL STORAGE FOR WEB APPLICATIONS](http://diveintohtml5.info/storage.html)
 
-## [Linux](linux.md)
+## Linux
+- 📝 [Linux System Administration Basics](https://www.linode.com/docs/tools-reference/basics/linux-system-administration-basics/)
+- 📝 [How To Configure a Linux Service](https://www.digitalocean.com/community/tutorials/how-to-configure-a-linux-service-to-start-automatically-after-a-crash-or-reboot-part-1-practical-examples)
 
 ## Docker
 ### Dockerfile
@@ -52,112 +54,28 @@ The context is a set of files, passed in as an argument to the `docker build` co
 - `docker stop $(docker ps -q)` Stop all running containers
 - `docker rm $(docker ps -aq)` Remove all containers
 
-## Object Oriented Programming
+## Object-Oriented Programming
 - 📝 [Why getter and setter methods are evil](https://www.infoworld.com/article/2073723/why-getter-and-setter-methods-are-evil.html)
 
-## Languages
-### Javascript
+## Javascript
 - 🎥 [What the heck is the event loop anyway? | Philip Roberts | JSConf EU](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
 ### Legacy 
 These articles aren't too relevant for today's JS, but were helpful at the time and still useful for historical learning.
 - 📝 [Overwhelmed by Javascript Dependencies](http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html)
 
-### [Typescript](typescript.md)
-
-### C++
+## C++
 - 📝 [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines)
 
-### Rust
+## Rust
 - 📝 [Rust via its Core Values](http://designisrefactoring.com/2016/04/01/rust-via-its-core-values/)
 
-### Go
-### Modules
-- 🎥 [Intro to Go Modules and SemVer](https://www.youtube.com/watch?v=aeF3l-zmPsY)
-### HTTP Server
-- 📝 [How I write HTTP services after eight years.](https://pace.dev/blog/2018/05/09/how-I-write-http-services-after-eight-years.html)
-- 💭 [How to create many http servers into one app?](https://stackoverflow.com/questions/31176307/how-to-create-many-http-servers-into-one-app)
-#### Creating an HTTP Server
-```go
-import "fmt"
-import "net/http"
-
-
-func handleIndex(w http.ResponseWriter, r *http.Request){
-  fmt.Fprintf(w, "Hello Index!")
-}
-
-func main() {
-    http.HandleFunc("/", handleIndex)
-    http.ListenAndServe(":8000", nil)
-}
-```
-
-When calling `http.HandleFunc`, handler functions are attached to the `DefaultServeMux` exported by the `net/http` package. You can also create your own ServeMux if you don't want to work directly off of the `DefaultServeMux`
-
-```go
-import "fmt"
-import "net/http"
-
-
-func handleIndex(w http.ResponseWriter, r *http.Request){
-  fmt.Fprintf(w, "Hello Index!")
-}
-
-func main() {
-    mux := http.NewServeMux()
-    http.HandleFunc("/", handleIndex)
-    http.ListenAndServe(":8000", mux)
-}
-```
-
-This is particularly useful if you want to run multiple HTTP servers.
-
-#### Handling Requests
-##### Sending JSON
-```go
-func foo(w http.ResponseWriter, r *http.Request) {
-  profile := Profile{"Alex", []string{"snowboarding", "programming"}}
-
-  js, err := json.Marshal(profile)
-  if err != nil {
-    http.Error(w, err.Error(), http.StatusInternalServerError)
-    return
-  }
-
-  w.Header().Set("Content-Type", "application/json")
-  w.Write(js)
-}
-```
-##### Sending Templates
-##### Getting query params
-```go
-func main() {
-	u, err := url.Parse("https://example.org/?a=1&a=2&b=3")
-	if err != nil {
-		log.Fatal(err)
-	}
-	q := u.Query()
-	fmt.Println(q["a"]) # [ "1", "2" ]
-        fmt.Println(q.Get("a")) # "1"
-	fmt.Println(q.Get("b")) # "3"
-}
-```
-
-https://golang.org/pkg/net/url/#URL.Query
-
-##### Getting path params
-The stdlib does not contain path parameter parsing, you either need to use a library, or parse the URL yourself. 
-```go
-path := "/blog/123"
-blogId := strings.TrimPrefix(req.URL.Path, "/blog/")
-```
+## [Go](go.md)
 
 ## GraphQL
 - 📝 [Demystifying the info Argument in GraphQL Resolvers](https://www.prisma.io/blog/graphql-server-basics-demystifying-the-info-argument-in-graphql-resolvers-6f26249f613a)
 
-## Vim
-- 💭 [What is the difference between the remap, noremap, nnoremap and vnoremap mapping commands in Vim?](https://stackoverflow.com/questions/3776117/what-is-the-difference-between-the-remap-noremap-nnoremap-and-vnoremap-mapping)
+## [Vim](vim.md)
 
 ## Git
 - 📝 [Understanding git for real by exploring the .git directory](https://www.daolf.com/posts/git-series-part-1/)
