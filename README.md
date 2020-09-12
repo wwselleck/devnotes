@@ -1,5 +1,6 @@
 # Dev Notes
 
+## [Build-A-PC](buildapc.md)
 ## Back End
 
 - 📖 [**Designing Data-Intensive Applications**](https://dataintensive.net/) - Martin Kleppmann
