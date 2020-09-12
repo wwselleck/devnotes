@@ -8,15 +8,21 @@
 - 📝 [HTTP Made Really Easy](https://www.jmarshall.com/easy/http/)
 - 💭 [Difference between "Cache-Control: max-age=0" and "Cache-Control: no-cache"](http://stackoverflow.com/questions/1046966/whats-the-difference-between-cache-control-max-age-0-and-no-cache)
 
+#### Using POST for side-effectless queries
+- GET requires all parameters be passed in via query params
+- URLs have practical limits around 2k-8k characters
+- A payload body (JSON, whatever) can express more complex and expressive structures than query params
+- 📝 https://dropbox.tech/developers/limitations-of-the-get-method-in-http
+- 📝 https://evertpot.com/dropbox-post-api/
+
+
 ### Authn/Authz
 - 📝 [An Introduction to OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
 
 ## Web Front-End
 - 📝 [THE PAST, PRESENT & FUTURE OF LOCAL STORAGE FOR WEB APPLICATIONS](http://diveintohtml5.info/storage.html)
 
-## Linux
-- 📝 [Linux System Administration Basics](https://www.linode.com/docs/tools-reference/basics/linux-system-administration-basics/)
-- 📝 [How To Configure a Linux Service](https://www.digitalocean.com/community/tutorials/how-to-configure-a-linux-service-to-start-automatically-after-a-crash-or-reboot-part-1-practical-examples)
+## [Linux](linux.md)
 
 ## Docker
 ### Dockerfile
