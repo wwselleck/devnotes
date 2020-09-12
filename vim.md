@@ -1,9 +1,13 @@
 # Vim
 
 ## Workflows
+- 📝 [Seven habits of effective text editing](https://www.moolenaar.net/habits.html)
 - 🎥 [A Vid in which Vim Saves Me Hours & Hundreds of Clicks](https://www.youtube.com/watch?v=hraHAZ1-RaM)
 - 📝 [A modern terminal workflow](https://wrotenwrites.com/a_modern_terminal_workflow_2/)
 
+## Config
+### .vimrc Examples
+- https://github.com/oblitum/dotfiles/blob/ArchLinux/.vimrc#L1182-L1192
 ## Search & Replace
 -  https://vim.fandom.com/wiki/Search_and_replace
 - :s[ubstitute]
