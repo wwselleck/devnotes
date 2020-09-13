@@ -38,3 +38,21 @@ sticks and place them in the correct slots, you can double the memory
 throughput. # of sticks increases capacity, # of channels increases throughput.
 # Displays
  https://www.reddit.com/r/buildapc/comments/1087uc/computer_monitor_guide/
+ 
+# USB
+#### Charging
+```
+Power per standard
+           Max Voltage  Max Current   Max Power
+USB 2.0      5V             500ma         2.5W
+USB 3.0      5V             900ma         4.5W
+and 3.1
+USB BC1.2    5V             1.5A          7.5W
+USB C1.2     5V             3A            15W
+USB PD       20V            5A            100W
+```
+#### USB Power Delivery
+- https://www.youtube.com/watch?v=Uuh0tRLANpc
+- Both sides of cable needs to be USB-C, specific pins needed for wattage
+negotation between devices
+
