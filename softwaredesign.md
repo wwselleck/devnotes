@@ -1,6 +1,7 @@
 # Software Design
 - 📖 [**A Philosophy of Software Design**](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201) - John Ousterhout
 - 📝 [Software Architecture is Overrated, Clear and Simple Design is Underrated](https://blog.pragmaticengineer.com/software-architecture-is-overrated/)
+- 📝 [Why getter and setter methods are evil](https://www.infoworld.com/article/2073723/why-getter-and-setter-methods-are-evil.html)
 
 ## Project Structure
 - 📝 [Standard Package Layout](https://medium.com/@benbjohnson/standard-package-layout-7cdbc8391fc1) (uses Go, but applicable for general project structure)
