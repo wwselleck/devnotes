@@ -87,3 +87,5 @@ These articles aren't too relevant for today's JS, but were helpful at the time 
 ## [Vim](vim.md)
 
 ## [Git](git.md)
+
+## [Home Networking](homenetworking.md)
