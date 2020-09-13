@@ -61,8 +61,7 @@ The context is a set of files, passed in as an argument to the `docker build` co
 - `docker stop $(docker ps -q)` Stop all running containers
 - `docker rm $(docker ps -aq)` Remove all containers
 
-## Object-Oriented Programming
-- 📝 [Why getter and setter methods are evil](https://www.infoworld.com/article/2073723/why-getter-and-setter-methods-are-evil.html)
+## [Software Design](softwaredesign.md)
 
 ## Languages
 
