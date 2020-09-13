@@ -89,3 +89,6 @@ These articles aren't too relevant for today's JS, but were helpful at the time 
 ## [Git](git.md)
 
 ## [Home Networking](homenetworking.md)
+
+## Networking
+- 📝 [The History of the URL](https://blog.cloudflare.com/the-history-of-the-url/)
