@@ -36,4 +36,5 @@ Now, I use the built-in Language Server Protocol client in Neovim for diagnostic
 Various links with some helpful words:
 https://www.reddit.com/r/neovim/comments/h0ndj0/to_those_who_have_integrated_lsp_functionality/
 https://www.reddit.com/r/neovim/comments/igyj1f/neovim_lsp_is_really_awesome/
+https://nathansmith.io/posts/neovim-lsp
 `:h lsp` is also very helpful
