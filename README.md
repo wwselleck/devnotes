@@ -1,65 +1,43 @@
 # Dev Notes
 
-## [Build-A-PC](buildapc.md)
-## Back End
+## Authn/Authz
+- 📝 [An Introduction to OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
+- 📝 [RFC-6749 The OAuth 2.0 Authorization Framework ](https://tools.ietf.org/html/rfc6749)
 
+## Back End
 - 📖 [**Designing Data-Intensive Applications**](https://dataintensive.net/) - Martin Kleppmann
 
-### HTTP
+## Build-A-PC
+- 📝 [Everything You Need to Know About the Dual-, Triple-, and Quad-Channel Memory Architectures](https://hardwaresecrets.com/everything-you-need-to-know-about-the-dual-triple-and-quad-channel-memory-architectures/)
+- 🎥 [What is USB Power Delivery? ](https://www.youtube.com/watch?v=Uuh0tRLANpc)
+
+
+## HTTP
 - 📝 [HTTP Made Really Easy](https://www.jmarshall.com/easy/http/)
 - 💭 [Difference between "Cache-Control: max-age=0" and "Cache-Control: no-cache"](http://stackoverflow.com/questions/1046966/whats-the-difference-between-cache-control-max-age-0-and-no-cache)
 
-#### Using POST for side-effectless queries
-- GET requires all parameters be passed in via query params
-- URLs have practical limits around 2k-8k characters
-- A payload body (JSON, whatever) can express more complex and expressive structures than query params
-- 📝 https://dropbox.tech/developers/limitations-of-the-get-method-in-http
-- 📝 https://evertpot.com/dropbox-post-api/
+## Javascript
+- 🎥 [What the heck is the event loop anyway? | Philip Roberts | JSConf EU](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
+## Linux
+- 📝 [Linux System Administration Basics](https://www.linode.com/docs/tools-reference/basics/linux-system-administration-basics/)
+- 📝 [How To Configure a Linux Service](https://www.digitalocean.com/community/tutorials/how-to-configure-a-linux-service-to-start-automatically-after-a-crash-or-reboot-part-1-practical-examples)
+
+### Boot Process
+- 📝 [Arch Linux Wiki - Arch boot process](https://wiki.archlinux.org/index.php/Arch_boot_process)
+- 📝 [Arch Linux Wiki - Partitioning](https://wiki.archlinux.org/index.php/Partitioning)
+- 📝 [Coping with the UEFI Boot Process](https://www.linux-magazine.com/Online/Features/Coping-with-the-UEFI-Boot-Process)
 
 
-### Authn/Authz
-- 📝 [An Introduction to OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
+
+
+
+
 
 ## Web Front-End
 - 📝 [THE PAST, PRESENT & FUTURE OF LOCAL STORAGE FOR WEB APPLICATIONS](http://diveintohtml5.info/storage.html)
 
-## [Linux](linux.md)
 
-## Docker
-### Dockerfile
-#### Example
-```dockerfile
-FROM golang:alpine d
-RUN apk --no-cache add gcc g++ make git
-WORKDIR /go/src/app
-COPY . .
-RUN go get ./...
-RUN GOOS=linux go build -ldflags="-s -w" -o ./web-app .
-
-FROM alpine:3.9
-RUN apk --no-cache add ca-certificates
-COPY --from=build /go/src/app /go
-WORKDIR /go
-EXPOSE 8080
-ENTRYPOINT /go/web-app
-```
-
-### CLI
-#### Building Images
-Docker builds images based on two main pieces of data: A Dockerfile, and a context.
-See [dockerfile.md](./dockerfile.md).
-The context is a set of files, passed in as an argument to the `docker build` command. The files contained in the context are the files that are available (via for instance a COPY command) to the Dockerfile.
-
-- `docker build .` Build an image using the current folder as context
-- `docker build -f config/Dockerfile .` Build an image, specifying a path for the Dockerfile
-
-#### Managing Containers
-
-- `docker ps` List all _running_ containers
-- `docker ps -a` List all containers
-- `docker ps -q` List all running containers, only outputting numberic IDs
-- `docker stop $(docker ps -q)` Stop all running containers
-- `docker rm $(docker ps -aq)` Remove all containers
 
 ## [Software Design](softwaredesign.md)
 
