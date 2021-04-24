@@ -1,4 +1,4 @@
-# Dev Notes
+# Good Material
 💤 = Outdated article, but still worth a mention
 
 ## Authn/Authz
