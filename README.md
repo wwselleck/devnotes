@@ -63,7 +63,7 @@
 - 💭 ["How to become a dramatically better programmer"](https://recurse.henrystanley.com/post/better/)
   - https://news.ycombinator.com/item?id=17286521
 
-### Rust
+## Rust
 - 📝 [Rust via its Core Values](http://designisrefactoring.com/2016/04/01/rust-via-its-core-values/)
 
 ## Software Design
@@ -77,7 +77,7 @@
 
 ## Typescript
 - 📖 [**Effective Typescript**](https://effectivetypescript.com/) - Dan Vanderkam
-## Runtime Validation
+### Runtime Validation
 - 📝 [Typescript and validations at runtime boundaries](https://lorefnon.tech/2018/03/25/typescript-and-validations-at-runtime-boundaries/)
 - 📝 [Taming Dynamic Data in TypeScript](https://www.pluralsight.com/tech-blog/taming-dynamic-data-in-typescript/)
 
