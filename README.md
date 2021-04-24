@@ -7,6 +7,9 @@
 
 ## Back End
 - 📖 [**Designing Data-Intensive Applications**](https://dataintensive.net/) - Martin Kleppmann
+- 📝 [How I write backends](https://github.com/fpereiro/backendlore)
+
+
 
 ## Build-A-PC
 - 📝 [Everything You Need to Know About the Dual-, Triple-, and Quad-Channel Memory Architectures](https://hardwaresecrets.com/everything-you-need-to-know-about-the-dual-triple-and-quad-channel-memory-architectures/)
@@ -15,6 +18,9 @@
 
 ## C++
 - 📝 [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines)
+
+
+
 
 ## Git
 - 📝 [Git Flight Rules](https://github.com/k88hudson/git-flight-rules)
