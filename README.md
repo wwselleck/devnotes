@@ -112,6 +112,7 @@
 
 
 ## Programming Career
+- 🎥 [Hamming, "You and Your Research" (June 6, 1995)](https://www.youtube.com/watch?v=a1zDuOPkMSw)
 - 📖 **The Pragmatic Programmer**
 - 💭 [What-should-I-do-in-order-to-be-a-successful-web-developer](https://www.quora.com/What-should-I-do-in-order-to-be-a-successful-web-developer)
 - 💭 ["How to become a dramatically better programmer"](https://recurse.henrystanley.com/post/better/)
