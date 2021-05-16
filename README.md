@@ -113,6 +113,7 @@
 
 ## Programming Career
 - 🎥 [Hamming, "You and Your Research" (June 6, 1995)](https://www.youtube.com/watch?v=a1zDuOPkMSw)
+- 📖 [Guido van Rossum - King's Day Speech](http://neopythonic.blogspot.com/2016/04/kings-day-speech.html?m=1)
 - 📖 **The Pragmatic Programmer**
 - 💭 [What-should-I-do-in-order-to-be-a-successful-web-developer](https://www.quora.com/What-should-I-do-in-order-to-be-a-successful-web-developer)
 - 💭 ["How to become a dramatically better programmer"](https://recurse.henrystanley.com/post/better/)
