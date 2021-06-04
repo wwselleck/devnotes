@@ -1,4 +1,17 @@
 # Good Material
+
+ONLY GOOD MATERIAL. This should not turn into one of those "awesome-x" pages that lists every single webpage in existence that talks about x.
+
+✅ Detailed material on general topics
+✅ Broad or shallow material on more niche topics
+✅ Foundational material
+✅ Specs or RFCs
+⛔ General reference material
+⛔ Opinion material without in-depth evidence or discussion
+⛔ Tutorials that could be replaced by just reading documentation
+
+
+
 💤 = Outdated article, but still worth a mention
 
 
