@@ -154,6 +154,8 @@ ONLY GOOD MATERIAL. This should not turn into one of those "awesome-x" pages tha
 - 📝 [WTF Dial](https://medium.com/wtf-dial/wtf-dial-domain-model-9655cd523182) Builds on "Standard Package Layout" with a full project example
 - 📝 [Golang Standard Project Layout](https://github.com/golang-standards/project-layout)
 
+## System Design
+- 📝 [System Design Primer](https://github.com/donnemartin/system-design-primer)
 
 
 
